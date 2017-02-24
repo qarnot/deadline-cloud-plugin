@@ -1,0 +1,32 @@
+############################
+# Qarnot API configuration #
+############################
+[Cluster]
+Type=string
+Category=API configuration
+CategoryOrder=0
+Index=1
+Label=Cluster
+Default=https://api.qarnot.com/
+Description=Your Qarnot API cluster
+
+[Token]
+Type=string
+Category=API configuration
+CategoryOrder=0
+Index=3
+Label=Token
+Default=Set your API token here
+Description=Your Qarnot API token.
+
+###############
+# Dev Options #
+###############
+[Unsafe]
+Type=boolean
+Category=Options
+CategoryOrder=4
+Index=1
+Label=Unsafe
+Default=False
+Description=for insecure requests
